@@ -1,10 +1,10 @@
 {
-  "name": "claude-one",
+  "name": "claude-code-multisession",
   "version": "0.1.0",
   "description": "One prompt to control all your Claude Code sessions across every project",
   "license": "AGPL-3.0-or-later",
-  "repository": "https://github.com/langmartai/claude-one",
-  "homepage": "https://github.com/langmartai/claude-one",
+  "repository": "https://github.com/langmartai/claude-code-multisession",
+  "homepage": "https://github.com/langmartai/claude-code-multisession",
   "author": {
     "name": "langmartai"
   },
@@ -21,6 +21,6 @@
     "lm-assist": "latest"
   },
   "bin": {
-    "claude-one": "./bin/claude-one.js"
+    "claude-code-multisession": "./bin/claude-code-multisession.js"
   }
 }

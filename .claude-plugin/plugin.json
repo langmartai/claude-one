@@ -1,10 +1,10 @@
 {
-  "name": "claude-one",
+  "name": "claude-code-multisession",
   "version": "0.1.0",
   "description": "One prompt to control all your Claude Code sessions across every project",
   "author": {
     "name": "langmartai"
   },
-  "repository": "https://github.com/langmartai/claude-one",
+  "repository": "https://github.com/langmartai/claude-code-multisession",
   "license": "AGPL-3.0-or-later"
 }

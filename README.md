@@ -1,4 +1,4 @@
-# Claude One
+# Claude Code Multisession
 
 **One prompt to control all your Claude Code sessions across every project.**
 
@@ -19,12 +19,12 @@ That's it. Everything is set up automatically — services, statusline, and this
 Or install the plugin only:
 ```
 /plugin marketplace add langmartai/lm-assist
-/plugin install claude-one@langmartai
+/plugin install claude-code-multisession@langmartai
 ```
 
 ## What It Does
 
-You're working on Project A. You say "fix the auth bug in Project B." Claude One:
+You're working on Project A. You say "fix the auth bug in Project B." Claude Code Multisession:
 
 1. Checks your current session — is this about Project A? No.
 2. Finds Project B's sessions — is there one that already worked on auth? Yes.
@@ -76,7 +76,7 @@ Current state:
   Working on the database layer refactor.
 ```
 
-The summary is the anchor. When you say something, Claude One checks: does this belong here? If yes — just do it. If no — route it.
+The summary is the anchor. When you say something, Claude Code Multisession checks: does this belong here? If yes — just do it. If no — route it.
 
 ### `/run <prompt>` — Execute anywhere
 
@@ -148,7 +148,7 @@ Queued prompts include:
 
 ## Session Intelligence
 
-Claude One gets smarter the more you use it.
+Claude Code Multisession gets smarter the more you use it.
 
 ### Session Summaries
 
@@ -191,7 +191,7 @@ After enough interactions, routing skips the deep scan entirely — signals alre
 
 ## Architecture
 
-Claude One is powered by [lm-assist](https://github.com/langmartai/lm-assist), which provides:
+Claude Code Multisession is powered by [lm-assist](https://github.com/langmartai/lm-assist), which provides:
 
 - **155+ REST API endpoints** for session management, monitoring, and control
 - **Next.js web dashboard** with 15 insight views per session

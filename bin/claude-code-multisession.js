@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * claude-one — One prompt to control all your Claude Code sessions
+ * claude-code-multisession — One prompt to control all your Claude Code sessions
  *
  * This is a shell wrapper around lm-assist. All actual functionality
  * is provided by the lm-assist package.

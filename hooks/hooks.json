@@ -1,5 +1,5 @@
 {
-  "description": "claude-one hooks — auto-check lm-assist services on session start",
+  "description": "claude-code-multisession hooks — auto-check lm-assist services on session start",
   "hooks": {
     "SessionStart": [
       {

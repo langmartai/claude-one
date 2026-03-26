@@ -26,7 +26,7 @@ Add the marketplace once — then install any combination of plugins:
 
 | Install command | What you get |
 |----------------|-------------|
-| `/plugin install claude-code-multisession@langmartai` | Skills (observe, route) + commands (`/sessions`, `/summary`, `/run`) — cross-project session management |
+| `/plugin install claude-code-multisession@langmartai` | Skills (observe, route) + commands (`/projects`, `/sessions`, `/summary`, `/run`) — cross-project session management |
 | `/plugin install claude-code-webui@langmartai` | Skill (dashboard) + commands (`/web`, `/web-sessions`, `/web-tasks`) — web dashboard access |
 | `/plugin install lm-assist@langmartai` | Commands (`/assist`, `/assist-setup`, `/assist-status`, `/assist-search`, `/assist-logs`) — setup and diagnostics |
 
@@ -45,7 +45,24 @@ You're working on Project A. You say "fix the auth bug in Project B." Claude Cod
 
 You never left Project A. You never opened another terminal.
 
-## Three Commands
+## Four Commands
+
+### `/projects` — All your projects at a glance
+
+```
+Projects (4)
+───────────────────────────────────────────────────────────────────────────────────────────────
+   Project                    Sessions      Cost  Summary
+───────────────────────────────────────────────────────────────────────────────────────────────
+ * my-backend                       42    $67.70  Node.js REST API with Express, PostgreSQL
+   my-frontend                      28    $34.20  React dashboard with TypeScript
+   my-infra                         15    $12.40  Terraform + CI/CD pipeline
+   my-shared-lib                     8     $5.10  Shared utility packages
+───────────────────────────────────────────────────────────────────────────────────────────────
+   Total                            93   $119.40
+
+ * = current project
+```
 
 ### `/sessions` — See everything
 
